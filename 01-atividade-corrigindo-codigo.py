@@ -1,3 +1,6 @@
+import os
+os.system("cls || clear")
+
 # Variáveis para armazenar os números
 numero1 = int(input("Digite o 1º número: "))
 numero2 = int(input("Digite o 2º número: "))
@@ -122,7 +125,7 @@ print(f"Quantidade de positivos: {quantidade_positivos}")
 print(f"Quantidade de negativos: {quantidade_negativos}")
 print(f"Maior número: {maior_numero}")
 print(f"Menor número: {menor_numero}")
-print(f"Média dos números pares: {media_pares:.2f}")
-print(f"Média dos números ímpares: {media_impares:.2f}")
-print(f"Média de todos os números: {media_geral:.2f}")
+print(f"Média dos números pares: {media_pares}")
+print(f"Média dos números ímpares: {media_impares}")
+print(f"Média de todos os números: {media_geral}")
 print(f"Números na ordem inversa: {numeros_invertidos}")
